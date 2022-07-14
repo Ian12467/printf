@@ -2,15 +2,15 @@
 
 /**
  * _printf - formatted output conversion and print data.
+ * @format: input string.
  *
- * @format: input string. *
  * Return: number of chars printed.
  */
 int _printf(const char *format, ...)
 {
 	unsigned int i = 0, len = 0, ibuf = 0;
 	va_list arguments;
-	int (*function)(va_list, char *, unsigned int)
+	int (*function)(va_list, char *, unsigned int);
 	char *buffer;
 
 	va_start(arguments, format), buffer = malloc(sizeof(char) * 1024);
@@ -36,13 +36,10 @@ int _printf(const char *format, ...)
 				}
 				else
 				{
-
-					len += function(arguments, buffer ibuf);
-
+					len += function(arguments, buffer, ibuf);
 					i += ev_print_func(format, i + 1);
 				}
-			}i++;
-
+			} i++;
 		}
 		else
 			handl_buf(buffer, format[i], ibuf), len++;
