@@ -1,8 +1,6 @@
 #include "main.h"
-
 /**
  * print_hex - prints a decimal in hexadecimal
- *
  * @arguments: input string
  * @buf: buffer pointer
  * @ibuf: index for buffer pointer
@@ -18,9 +16,7 @@ int print_hex(va_list arguments, char *buf, unsigned int ibuf)
 	if (int_input == 0)
 	{
 		ibuf = handl_buf(buf, '0', ibuf);
-
-	return (1);
-
+		return (1);
 	}
 	if (int_input < 0)
 	{

@@ -1,12 +1,12 @@
 ./" Manpage for _printf.
-.TH _printf 7 "13 July 2022" "1.0" "Program Manual for _printf"
+.TH _printf 3 "18 July 2022" "1.0" "Program Manual for _printf"
 .SH NAME
  _printf - formatted output conversion and print data.
 .SH SYNOPSIS
 .nf
 .BI printf (FORMAT, ARGUMENT)...
 .PP
-.BI "#include 'main.h'
+.BI "#include 'main.h'"
 .BI "#include <stdarg.h>"
 .BI "#include <unistd.h>"
 .PP
@@ -107,6 +107,7 @@ The character \fI%\fR is followed by zero the following flags:
 #include ''main.h''
 
 int main(void)
+
 {
 
 	int length;
@@ -123,4 +124,4 @@ int main(void)
 .SH SEE ALSO
 .R printf(3)
 .SH AUTHORS
-Written by \Ian Otieno\fR and \fB Florence Muthoka\fR.
+Written by \Ian Otieno\fR and \fB Florence Muthoka \fR.
