@@ -17,6 +17,7 @@ struct convert
 	int (*f)(va_list);
 };
 typedef struct convert conver_t;
+int _putchar(char c);
 
 /*Main functions*/
 int parser(const char *format, conver_t f_list[], va_list arg_list);
