@@ -1,5 +1,4 @@
-#include "holberton.h"
-#include <unistd.h>
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdarg.h>
