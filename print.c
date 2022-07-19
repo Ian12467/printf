@@ -14,7 +14,7 @@ void error_format(const char *format)
 {
 	if (!format || !*format)
 	{
-		write(1, "error", 6);
+		fwrite(1, "error", 6);
 		exit(98);
 	}
 }
