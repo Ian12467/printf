@@ -13,8 +13,6 @@ int conversion_b(char *s)
 	return (1);
 }
 
-
-
 /**
  * make_binary - make an octal string
  * @s: a format string

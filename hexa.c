@@ -13,8 +13,6 @@ int conversion_h(char *s)
 	return (1);
 }
 
-
-
 /**
  * hex - convert a number to an octal
  * @n: a number
@@ -52,7 +50,6 @@ char *make_hex(char *s, va_list l)
 	result = hex(n);
 	return (result);
 }
-
 
 /**
  * reverse_array - reverss an array of integers

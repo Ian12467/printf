@@ -13,8 +13,6 @@ int conversion_u(char *s)
 	return (1);
 }
 
-
-
 /**
  * _utoa - transforms a number into a string
  * @n: an unsigned int
@@ -44,8 +42,6 @@ char *_utoa(unsigned int n)
 	} while (i >= 0 && n > 0);
 	return (number);
 }
-
-
 
 /**
  * make_unsigned - make an unsigned int

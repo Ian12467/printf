@@ -13,8 +13,6 @@ int conversion_o(char *s)
 	return (1);
 }
 
-
-
 /**
  * octorbi - convert a number to an octal
  * @n: a number
@@ -38,9 +36,6 @@ char *octorbi(unsigned int n, int b)
 
 	return (s);
 }
-
-
-
 
 /**
  * make_octal - make an octal string

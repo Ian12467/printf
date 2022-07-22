@@ -32,7 +32,6 @@ char *make_char(char *s, va_list vl)
 	return (result);
 }
 
-
 /**
  * conversion_char - check if format is right
  * @s: formatting string for chars
